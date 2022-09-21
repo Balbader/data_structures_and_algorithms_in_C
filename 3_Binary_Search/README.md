@@ -35,7 +35,6 @@ search(arr, lo, hi, needle)
 			lo = mid_point + 1;
 		else
 			hi = mid_point;
-	
 	} while (lo < hi);
 	return (false);
 }
