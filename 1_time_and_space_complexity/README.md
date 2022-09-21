@@ -7,8 +7,8 @@ on input. It is not meant to be an exact measurement. It will not tell you how
 many CPU cycles it takes, instead it is meant to generalize the growth of your
 algorithm.<br>
 
-This means that 'O' of 'N' - 'O(N)' defines the computational complexity of the algorithm.<br>
-In this case of 'O(N)', it means that the algorithm will grow linearily based on input.<br>
+This means that O(N) defines the computational complexity of the algorithm.<br>
+In this case of O(N), it means that the algorithm will grow linearily based on input.<br>
 <br>
 Big O notation is used in order to make decisions about what data structures and
 algorithms to use.<br>
