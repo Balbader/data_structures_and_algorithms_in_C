@@ -22,7 +22,7 @@ Therefor: log(4096) = 12;
 
 ### Sudo Code for Binary Search
 ```C
->NOTE: lo is always inclusive. hi is always exclusive.
+> NOTE: lo is always inclusive. hi is always exclusive.
 > This means that lo should be included but hi should not.
 
 search(arr, lo, hi, needle)
