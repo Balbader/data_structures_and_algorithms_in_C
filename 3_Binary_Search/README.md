@@ -12,4 +12,10 @@ The basic steps to perform Binary Search are:
 >• Otherwise, narrow it to the upper half.<br>
 >• Repeatedly check from the second point until the value is found or the interval is empty.<br>
 
-The idea is to 1/2 the length of the searh size until we find the value or we reach 1.<br>
+The idea is to 1/2 the length of the array until we meet a specific condition
+or we reach 1.<br>
+
+For example, if our array is 4096 we would need to half it 12 times to reach 1.<br>
+Therefor: log(4096) = 12;
+
+>NOTE: If the input halves at each step, its likely O(logN) or O(NlogN)
