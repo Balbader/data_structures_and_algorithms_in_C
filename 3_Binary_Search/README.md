@@ -19,3 +19,24 @@ For example, if our array is 4096 we would need to half it 12 times to reach 1.<
 Therefor: log(4096) = 12;
 
 >NOTE: If the input halves at each step, its likely O(logN) or O(NlogN)
+
+### Sudo Code for Binary Search
+```C
+>NOTE: lo is always inclusive. hi is always exclusive.
+
+search(arr, lo, hi, needle)
+{
+	do {
+		mid_point = (lo + (hi - lo) / 2);
+		value = arr[mid_point];
+		if (value == needle)
+			return (true);
+		else if (value > mid_point)
+			lo = mid_point + 1;
+		else
+			hi = mid_point;
+	
+	} while (lo < hi);
+	return (false);
+}
+```
