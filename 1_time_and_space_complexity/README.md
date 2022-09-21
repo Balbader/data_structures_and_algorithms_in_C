@@ -24,6 +24,7 @@ As your input grows, how fast does computation of memory grow?
 ```C
 #include <stdio.h>
 #include <string.h>
+
 int	sum_char_ascii_code(char *str)
 {
 	int	i;
