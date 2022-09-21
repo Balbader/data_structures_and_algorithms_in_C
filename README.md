@@ -5,7 +5,9 @@ These algorithms are mostly based on "The Last Algorithms Course You'll Need"
 by <b>The Primeagen<b>.
 
 The Course is available here: [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)<br>
-Please go an check it out. You will not regret it. It truly is one hell of a course.<br>
+Please go an check it out.<br>
+You will not regret it.<br>
+It truly is one hell of a course.<br>
 This course is by far the best I've come by and is 100% FREE!
 
 ## Why?
