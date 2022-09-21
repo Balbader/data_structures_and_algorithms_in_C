@@ -6,7 +6,7 @@
 #    By: baalbade <baalbade@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/21 13:28:51 by baalbade          #+#    #+#              #
-#    Updated: 2022/09/21 13:33:46 by baalbade         ###   ########.fr        #
+#    Updated: 2022/09/21 13:37:22 by baalbade         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -138,3 +138,7 @@ and worst case, just worst case).
 The common complexities:
 
 ![Big-O Complexity](./Pix/big-o-face.png)
+
+• O(1): Means constant time.
+	No matter how big the input is, it does the same set of
+	operations every single time. It's instant.
