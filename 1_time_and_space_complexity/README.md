@@ -6,7 +6,7 @@
 #    By: baalbade <baalbade@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/21 13:28:51 by baalbade          #+#    #+#              #
-#    Updated: 2022/09/21 13:39:36 by baalbade         ###   ########.fr        #
+#    Updated: 2022/09/21 13:46:14 by baalbade         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -143,3 +143,7 @@ The common complexities:
 >Means constant time.<br>
 >No matter how big the input is, it does the same set of
 >operations every single time. It's instant.
+
+• O(logn):
+>Also known as base-2 or /2<br>
+> the algorithm's maximum running time is proportional to the logarithm of the input size.
