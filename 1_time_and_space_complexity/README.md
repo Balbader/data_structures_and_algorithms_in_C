@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    README.md                                          :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: baalbade <baalbade@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/09/21 13:28:51 by baalbade          #+#    #+#              #
-#    Updated: 2022/09/21 13:52:15 by baalbade         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 # Time and Space Complexity
 
 ## What is Big O ?
@@ -40,16 +28,16 @@ As your input grows, how fast does computation of memory grow?
 int	sum_char_ascii_code(char *str)
 {
 	int	i;
-	int	tot;
+	int	sum;
 
-	tot = 0;
+	sum = 0;
 	i = 0;
 	while (str[i])
 	{
-		tot += str[i];
+		sum += str[i];
 		i++;
 	}
-	return (tot);
+	return (sum);
 }
 ```
 How can we tell the Big O complexity of the code above?<br>
@@ -68,23 +56,23 @@ This is what is know as a linear growth.<br>
 int	sum_char_ascii_code(char *str)
 {
 	int	i;
-	int	tot;
+	int	sum;
 
-	tot = 0;
+	sum = 0;
 	i = 0;
 	while (str[i])
 	{
-		tot += str[i];
+		sum += str[i];
 		i++;
 	}
 
 	i = 0;
 	while (str[i])
 	{
-		tot += str[i];
+		sum += str[i];
 		i++;
 	}
-	return (tot);
+	return (sum);
 }
 ```
 O(2N) -> O(N) and this makes sense. That is because Big O is meant to describe
@@ -107,18 +95,18 @@ you would probably win for some small set of input.
 int	sum_char_ascii_code(char *str)
 {
 	int	i;
-	int	tot;
+	int	sum;
 
-	tot = 0;
+	sum = 0;
 	i = 0;
 	while (str[i])
 	{
 		if (str[i] == 'E')
 			return (tot);
-		tot += str[i];
+		sum += str[i];
 		i++;
 	}
-	return (tot);
+	return (sum);
 }
 ```
 E = 69
@@ -140,3 +128,66 @@ The common complexities:
 ![Big-O Complexity](./Pix/big-o-face.png)
 
 This playlist is great for beginners who'd like to dive deeper in Big-O: [Big O for Software Engineering](https://www.youtube.com/watch?v=kNKitwZPqoY&list=PL7g1jYj15RUPVZDU9C276SZvlJjf4hzqV)<br>
+
+### Some Examples of Big-O:<br>
+
+
+### O(N^2)
+```C
+#include <stdio.h>
+#include <string.h>
+
+int	sum_char_ascii_code(char *str)
+{
+	int	i;
+	int	j;
+	int	sum;
+
+	sum = 0;
+	i = 0;
+	while (str[i])
+	{
+		j = 0;
+		while (str[j])
+		{
+			sum += str[j];
+			j++;
+		}
+		i++;
+	}
+	return (sum);
+}
+```
+
+### O(N^3)
+```C
+#include <stdio.h>
+#include <string.h>
+
+int	sum_char_ascii_code(char *str)
+{
+	int	i;
+	int	j;
+	int	k;
+	int	sum;
+
+	sum = 0;
+	i = 0;
+	while (str[i])
+	{
+		j = 0;
+		while (str[j])
+		{
+			k = 0;
+			while (str[k])
+			{
+				sum += str[k];
+				k++;
+			}
+			j++;
+		}
+		i++;
+	}
+	return (sum);
+}
+```
