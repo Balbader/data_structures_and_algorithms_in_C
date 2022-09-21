@@ -40,3 +40,9 @@ int	sum_char_ascii_code(char *str)
 	return (tot);
 }
 ```
+How can we tell the Big O complexity of the code above?<br>
+Simply by looking for loops. Where do we loop over the input?<br>
+In the case above we can see that for every character of the string, we will need
+loop one more time. This means that the computation time will grow by 1 with
+each characer.<br>
+This is what is know as a linear growth.<br>
