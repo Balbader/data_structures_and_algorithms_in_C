@@ -17,7 +17,7 @@ us create the best adapted programs to resolve the issues at hand.<br>
 
 ## Imortant Concept
 
-<!-- As your input grows, how fast does computation of memory grow? -->
+# As your input grows, how fast does computation of memory grow? 
 
 ### 1. Growth is with respect to the input
 
