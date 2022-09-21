@@ -6,8 +6,8 @@ information that the array is sorted and reduce the time complexity to O(Log n).
 
 The basic steps to perform Binary Search are:
 
->Begin with the mid element of the whole array as a search key.<br>
->If the value of the search key is equal to the item then return an index of the search key.<br>
->Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.<br>
->Otherwise, narrow it to the upper half.<br>
->Repeatedly check from the second point until the value is found or the interval is empty.
+>• Begin with the mid element of the whole array as a search key.<br>
+>• If the value of the search key is equal to the item then return an index of the search key.<br>
+>• Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.<br>
+>• Otherwise, narrow it to the upper half.<br>
+>• Repeatedly check from the second point until the value is found or the interval is empty.
