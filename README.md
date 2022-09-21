@@ -17,7 +17,7 @@ comfortable with these concepts.
 As I am currently studying The C programming language, I decided to go through
 this course and implement the code in C in order to:
 
-• Improve and strengthen my understanding of Data structures and algorithms
+• Improve and strengthen my understanding of Data structures and algorithms<br>
 • Improve my understanding of the 42 School writing guidelines
 
 ## 
