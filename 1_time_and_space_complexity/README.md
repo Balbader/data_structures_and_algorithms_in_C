@@ -7,8 +7,8 @@ on input. It is not meant to be an exact measurement. It will not tell you how
 many CPU cycles it takes, instead it is meant to generalize the growth of your
 algorithm.<br>
 
-This means that 'O' of 'n' - 'O(n)' defines the computational complexity of the algorithm.<br>
-In this case of 'O(n)', it means that the algorithm will grow linearily based on input.<br>
+This means that 'O' of 'N' - 'O(N)' defines the computational complexity of the algorithm.<br>
+In this case of 'O(N)', it means that the algorithm will grow linearily based on input.<br>
 <br>
 Big O notation is used in order to make decisions about what data structures and
 algorithms to use.<br>
@@ -79,7 +79,7 @@ O(2N) -> O(N) and this makes sense. That is because Big O is meant to describe
 the upper bound of the algorithm (the growth of the algorithm).<br>
 The constant eventually becomes irrelevant.<br>
 
-There is practical vs theoretical differences<br>
+There is practical vs theoretical differences:<br>
 
 Just because N is faster than N^2, doesn't mean practically its always
 faster for smaller input. Remember, we drop constants.
