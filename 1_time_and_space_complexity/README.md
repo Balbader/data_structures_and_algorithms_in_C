@@ -15,7 +15,7 @@ algorithms to use.<br>
 Big O notation help us predict how an algorithm will perform which ultimately help
 us create the best adapted programs to resolve the issues at hand.<br>
 
-## Imortant Concept
+## Important Concept
 
 As your input grows, how fast does computation of memory grow? 
 
