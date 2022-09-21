@@ -6,7 +6,7 @@
 #    By: baalbade <baalbade@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/21 13:28:51 by baalbade          #+#    #+#              #
-#    Updated: 2022/09/21 13:38:41 by baalbade         ###   ########.fr        #
+#    Updated: 2022/09/21 13:39:36 by baalbade         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -140,6 +140,6 @@ The common complexities:
 ![Big-O Complexity](./Pix/big-o-face.png)
 
 • O(1):
-<\t>Means constant time.<br>
-<\t>No matter how big the input is, it does the same set of
-<\t>operations every single time. It's instant.
+>Means constant time.<br>
+>No matter how big the input is, it does the same set of
+>operations every single time. It's instant.
