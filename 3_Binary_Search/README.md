@@ -10,4 +10,6 @@ The basic steps to perform Binary Search are:
 >• If the value of the search key is equal to the item then return an index of the search key.<br>
 >• Or if the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.<br>
 >• Otherwise, narrow it to the upper half.<br>
->• Repeatedly check from the second point until the value is found or the interval is empty.
+>• Repeatedly check from the second point until the value is found or the interval is empty.<br>
+
+The idea is to 1/2 the length of the searh size until we find the value or we reach 1.<br>
