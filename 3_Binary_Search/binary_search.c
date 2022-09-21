@@ -1,16 +1,18 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool	binary_search(int *haystack, int needle, int lo, int hi, int haystack_size)
+bool	binary_search(int *haystack, int needle, int haystack_size)
 {
-	int	mid_point;
-	int	value;
+	int		lo;
+	int		hi;
+	int		value;
+	int		mid_point;
 
 	lo = 0;
 	hi = haystack_size;
-	while (lo < hi)
+	do
 	{
-		mid_point = (lo + (hi - lo) / 2);
+		mid_point = (int)(lo + (hi - lo) / 2);
 		value = haystack[mid_point];
 
 		if (value == needle)
@@ -19,7 +21,13 @@ bool	binary_search(int *haystack, int needle, int lo, int hi, int haystack_size)
 			hi = mid_point;
 		else
 			lo = mid_point + 1;
-		lo++;
-	}
+	} while (lo < hi);
 	return (false);
+}
+
+int	main(void)
+{
+	int	arr[] = {1, 2, 3, 4, 5, 6};
+	int	size = sizeof(arr) / sizeof(arr[0]);
+	printf("%d\n", binary_search(arr, 4, size));
 }
