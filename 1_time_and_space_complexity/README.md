@@ -21,4 +21,21 @@ As your input grows, how fast does computation of memory grow?
 
 ### 1. Growth is with respect to the input
 
-``Hello world
+```C
+#include <stdio.h>
+#include <string.h>
+int	sum_char_ascii_code(char *str)
+{
+	int	i;
+	int	tot;
+
+	tot = 0;
+	i = 0;
+	while (str[i])
+	{
+		tot += str[i];
+		i++;
+	}
+	return (tot);
+}
+```
