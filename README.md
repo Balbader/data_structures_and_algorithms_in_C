@@ -2,7 +2,7 @@
 
 Here you will find some data structures and algorithms implemented in C.
 These algorithms are mostly based on "The Last Algorithms Course You'll Need"
-by <b>The Pimeagen<b>.
+by <b>The Primeagen<b>.
 
 The Course is available here: [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/)<br>
 Please go an check it out. You will not regret it. It truly is one hell of a course.<br>
@@ -20,4 +20,7 @@ this course and implement the code in C in order to:
 • Improve and strengthen my understanding of Data structures and algorithms<br>
 • Improve my understanding of the 42 School writing guidelines
 
-## 
+## Credits
+
+All credits goes to: [<b>The Primeagen<b>](https://github.com/ThePrimeagen).<br>
+This repo was made for study prupose only.<br>
