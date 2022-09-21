@@ -78,7 +78,6 @@ int	sum_char_ascii_code(char *str)
 O(2N) -> O(N) and this makes sense. That is because Big O is meant to describe
 the upper bound of the algorithm (the growth of the algorithm).<br>
 The constant eventually becomes irrelevant.<br>
-<br>
 
 There is practical vs theoretical differences<br>
 
