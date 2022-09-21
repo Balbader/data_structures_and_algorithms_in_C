@@ -82,6 +82,40 @@ The constant eventually becomes irrelevant.<br>
 There is practical vs theoretical differences:<br>
 
 Just because N is faster than N^2, doesn't mean practically its always
-faster for smaller input. Remember, we drop constants.
+faster for smaller input.<br>
+Remember, we drop constants.
 Therefore O(100N) is faster than O(N^2) but practically speaking,
 you would probably win for some small set of input.
+
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int	sum_char_ascii_code(char *str)
+{
+	int	i;
+	int	tot;
+
+	tot = 0;
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] == 'E')
+			return (tot);
+		tot += str[i];
+		i++;
+	}
+	return (tot);
+}
+```
+In Big O we often consider the worst case
+Especially in interviews (i have never been asked for best, average,
+and worst case, just worst case).
+
+E = 69
+
+Therefore any string with E in it will terminate early
+(unless E is the last item in the list).
+
+ITS STILL O(N)
