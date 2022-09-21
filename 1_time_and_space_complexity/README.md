@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    README.md                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: baalbade <baalbade@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/09/21 13:28:51 by baalbade          #+#    #+#              #
+#    Updated: 2022/09/21 13:33:46 by baalbade         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 # Time and Space Complexity
 
 ## What is Big O ?
@@ -109,13 +121,20 @@ int	sum_char_ascii_code(char *str)
 	return (tot);
 }
 ```
-In Big O we often consider the worst case
-Especially in interviews (i have never been asked for best, average,
-and worst case, just worst case).
-
 E = 69
 
 Therefore any string with E in it will terminate early
 (unless E is the last item in the list).
 
 ITS STILL O(N)
+
+### 3. Worst case is usually the way we measure
+
+In Big O we often consider the worst case:<br>
+
+Especially in interviews (i have never been asked for best, average,
+and worst case, just worst case).
+
+The common complexities:
+
+![Big-O Complexity](./Pix/big-o-face.png)
