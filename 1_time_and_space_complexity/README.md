@@ -21,4 +21,4 @@ As your input grows, how fast does computation of memory grow?
 
 ### 1. Growth is with respect to the input
 
-``Hello world``
+``Hello world
