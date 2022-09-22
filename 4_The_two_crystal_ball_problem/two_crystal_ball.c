@@ -1,6 +1,28 @@
 #include <stdio.h>
+#include <math.h>
 
-int	main(void)
+int	two_crystal_balls(int *arr, int arr_size)
 {
-	return (0);
+	int	jump_length;
+	int	i;
+	int	j;
+
+	jump_length = floor(sqrt(arr_size));
+	i = 0;
+	while (i < arr_size)
+	{
+		if (arr[i])
+			break;
+		i += jump_length;
+	}
+	i -= jump_length;
+	j = 0;
+	while (j < jump_length && i < arr_size)
+	{
+		if (arr[i])
+			return (i);
+		j++;
+		i++;
+	}
+	return -1;
 }
