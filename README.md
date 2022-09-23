@@ -26,3 +26,8 @@ this course and implement the code in C in order to:
 
 All credits goes to: [<b>The Primeagen<b>](https://github.com/ThePrimeagen).<br>
 This repo was made for study prupose only.<br>
+
+## Sources
+
+• [geeksforgeeks](https://www.geeksforgeeks.org/)<br>
+• 
