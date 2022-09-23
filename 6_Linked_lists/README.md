@@ -34,3 +34,34 @@ we have to move all the elements after 1000 (excluding 1000).
 Deletion is also expensive with arrays until unless some special techniques are used.
 For example, to delete 1010 in id[], everything after 1010 has to be moved due
 to this so much work is being done which affects the efficiency of the code.
+
+## Types of Linked Lists
+
+* Singly Linked List
+* Doubly Linked List
+* Circular Linked List
+
+### Singly Linked List
+```c
+struct	node {
+	int	value;
+	struct node *next;
+}
+```
+
+### Doubly Linked List
+```c
+struct	node {
+	int	value;
+	struct node *next;
+	struct node *prev;
+}
+```
+
+### Circular Linked List
+A circular linked list is a variation of a linked list in which the last element is linked to the first element. This forms a circular loop.
+<br>
+A circular linked list can be either singly linked or doubly linked.
+<br>
+>• for singly linked list, next pointer of last item points to the first item
+>• In the doubly linked list, prev pointer of the first item points to the last item as well.
