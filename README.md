@@ -24,10 +24,11 @@ this course and implement the code in C in order to:
 
 ## Credits
 
-All credits goes to: [<b>The Primeagen<b>](https://github.com/ThePrimeagen).<br>
+All credits goes to: [The Primeagen](https://github.com/ThePrimeagen).<br>
 This repo was made for study prupose only.<br>
 
 ## Sources
 
-• [geeksforgeeks](https://www.geeksforgeeks.org/)<br>
 • [The Primeagen](https://github.com/ThePrimeagen).<br>
+• [geeksforgeeks](https://www.geeksforgeeks.org/)<br>
+• [Programiz](https://www.programiz.com/c-programming)<br>
