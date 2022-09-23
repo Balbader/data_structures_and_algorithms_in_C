@@ -63,5 +63,5 @@ A circular linked list is a variation of a linked list in which the last element
 <br>
 A circular linked list can be either singly linked or doubly linked.
 <br>
->• for singly linked list, next pointer of last item points to the first item
+>• for singly linked list, next pointer of last item points to the first item<br>
 >• In the doubly linked list, prev pointer of the first item points to the last item as well.
