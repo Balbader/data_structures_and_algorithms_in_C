@@ -30,11 +30,11 @@ int	dequeue()
 
 int	main(void)
 {
-	insert_into_queue(1);
-	insert_into_queue(2);
-	insert_into_queue(3);
-	insert_into_queue(4);
-	insert_into_queue(5);
+	enqueue(1);
+	enqueue(2);
+	enqueue(3);
+	enqueue(4);
+	enqueue(5);
 
 	int	i;
 	for (i = 0; i < count; i++) {
@@ -44,7 +44,7 @@ int	main(void)
 	printf("\n");
 
 	for (i = 0; i < 4; i++) {
-		printf("%d ", delete_from_queue());
+		printf("%d ", dequeue());
 	}
 
 	printf("\n");
