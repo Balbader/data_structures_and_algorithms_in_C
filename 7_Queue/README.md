@@ -10,7 +10,7 @@
 
 ## Operations associated with a Queue in C
 
-A queue being an <strong>Abstract Data Structure<strong> provides the following operations for manipulation on the data elements:
+A queue being an `Abstract Data Structure` provides the following operations for manipulation on the data elements:
 
 >• `isEmpty()`: To check if the queue is empty<br>
 >• `isFull()`: To check whether the queue is full or not<br>
