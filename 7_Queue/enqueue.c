@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int	queue[256];
+#define SIZE 256
+int	queue[SIZE];
 int	count = 0;
 
 void	enqueue(int x)
