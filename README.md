@@ -32,3 +32,4 @@ This repo was made for study prupose only.<br>
 • [The Primeagen](https://github.com/ThePrimeagen).<br>
 • [geeksforgeeks](https://www.geeksforgeeks.org/)<br>
 • [Programiz](https://www.programiz.com/c-programming)<br>
+• [Digigtal Ocean](https://www.digitalocean.com/community/tutorials?hits_per_page=12)<br>
